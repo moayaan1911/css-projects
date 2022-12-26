@@ -1,0 +1,110 @@
+.container {
+  background-color: rgb(181, 181, 241);
+  min-height: 100vh;
+  border: 15px solid rgb(0, 0, 0);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  max-width: 90vw;
+  margin: 0 auto;
+}
+
+.image,
+img {
+  width: 320px;
+  height: 320px;
+}
+.image {
+  border-radius: 50%;
+  overflow: hidden;
+}
+.top h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: rgb(42, 42, 57);
+}
+.top {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.top h4 {
+  text-align: end;
+}
+.about {
+  margin-top: 50px;
+}
+.about h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(42, 42, 57);
+}
+
+.about p {
+  margin-top: 10px;
+  line-height: 30px;
+  letter-spacing: 1.2px;
+  text-align: justify;
+}
+.bio {
+  margin: 50px 0;
+}
+.bio h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.bio ul {
+  margin-left: 30px;
+}
+.bio li {
+  margin-bottom: 10px;
+  letter-spacing: 1.2px;
+}
+.footer {
+  margin: 50px 0;
+}
+.footer p {
+  text-align: end;
+}
+.project {
+  background-color: brown;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  width: 100;
+  margin: 0;
+  position: sticky;
+}
+.project span {
+  font-size: 30px;
+  font-weight: bold;
+}
+.project a {
+  color: rgb(237, 194, 113);
+}
+/* .............................................................. */
+
+/* responsiveness */
+@media screen and (max-width: 480px) {
+  .top h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(42, 42, 57);
+  }
+  .about h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(42, 42, 57);
+  }
+}
